@@ -140,3 +140,6 @@ let hero = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(hero)
 hero.setStayInScreen(true)
+game.onUpdateInterval(5000, function () {
+	
+})
