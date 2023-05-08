@@ -1,5 +1,5 @@
 {
-    "name": "Vanessa and Zina Final Project",
+    "name": "Zina and Vanessa Final Project",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -8,8 +8,7 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json",
-        "main.py"
+        "assets.json"
     ],
     "testFiles": [
         "test.ts"
@@ -21,5 +20,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
