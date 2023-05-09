@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="s=%`/93J;|m%^T7K|1a,">clover</variable><variable id="zEM!N5@FS0av^?1:4,e}">bunny</variable><variable type="KIND_SpriteKind" id="t7tu1XvXi+)zeW%SQeIa">Player</variable><variable type="KIND_SpriteKind" id="_W[vA@J22a9ODsrEI5Y_">Projectile</variable><variable type="KIND_SpriteKind" id="L161~^:OdF0B^4ytIA)j">Food</variable><variable type="KIND_SpriteKind" id="=7;S1nR=,1p~`E8`!t*=">Enemy</variable></variables><block type="pxt-on-start" id="t+?/ls`7,z+_|B:ZKCk8" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="ZAOpk`y^k7JY#rGj,o]E"><value name="img"><shadow type="background_image_picker" id="BdfrC(Jj-6E3L/Ov.O?#"><field name="img">assets.image`Background`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.tdhGh%(5]dm9LL1O63$-"}}</data></shadow></value><next><block type="variables_set" id="8LegDM]Ce(e^1J|uiB~*"><field name="VAR" id="zEM!N5@FS0av^?1:4,e}">bunny</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="R_3D|fR|7.B`)LHn4jK{"><value name="img"><shadow type="screen_image_picker" id="J(M3d8xH}}GKXk`gS#M!"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="t7tu1XvXi+)zeW%SQeIa">Player</variable><variable type="KIND_SpriteKind" id="_W[vA@J22a9ODsrEI5Y_">Projectile</variable><variable type="KIND_SpriteKind" id="L161~^:OdF0B^4ytIA)j">Food</variable><variable type="KIND_SpriteKind" id="=7;S1nR=,1p~`E8`!t*=">Enemy</variable><variable id="s=%`/93J;|m%^T7K|1a,">clover</variable><variable id="zEM!N5@FS0av^?1:4,e}">bunny</variable><variable id="v(LWm2nYy_Tb2EG4/?oj">bee</variable></variables><block type="pxt-on-start" id="t+?/ls`7,z+_|B:ZKCk8" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="ZAOpk`y^k7JY#rGj,o]E"><value name="img"><shadow type="background_image_picker" id="BdfrC(Jj-6E3L/Ov.O?#"><field name="img">assets.image`Background`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.tdhGh%(5]dm9LL1O63$-"}}</data></shadow></value><next><block type="variables_set" id="8LegDM]Ce(e^1J|uiB~*"><field name="VAR" id="zEM!N5@FS0av^?1:4,e}">bunny</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="R_3D|fR|7.B`)LHn4jK{"><value name="img"><shadow type="screen_image_picker" id="J(M3d8xH}}GKXk`gS#M!"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -32,4 +32,21 @@
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"+/u+zGI`o=lKv[@~*0I;"}}</data></shadow></value><value name="vx"><shadow type="spriteSpeedPicker"></shadow><block type="device_random" id="`p{f%@Ok[FVn-nJ-JF/x"><value name="min"><shadow type="math_number" id="gK#)3k=#VQx;cz=7kU.w"><field name="NUM">-50</field></shadow></value><value name="limit"><shadow type="math_number" id="|+z#%-j+,C_FnR*Fl?xS"><field name="NUM">50</field></shadow></value></block></value><value name="vy"><shadow type="spriteSpeedPicker" id="c~tGp6PuHHwy9A-fH}C;"><field name="speed">50</field></shadow></value></block></value></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"+/u+zGI`o=lKv[@~*0I;"}}</data></shadow></value><value name="vx"><shadow type="spriteSpeedPicker"></shadow><block type="device_random" id="`p{f%@Ok[FVn-nJ-JF/x"><value name="min"><shadow type="math_number" id="gK#)3k=#VQx;cz=7kU.w"><field name="NUM">-50</field></shadow></value><value name="limit"><shadow type="math_number" id="|+z#%-j+,C_FnR*Fl?xS"><field name="NUM">50</field></shadow></value></block></value><value name="vy"><shadow type="spriteSpeedPicker" id="c~tGp6PuHHwy9A-fH}C;"><field name="speed">50</field></shadow></value></block></value><next><block type="variables_set" id="CZdN_W;3a`1MZC:*nz(8"><field name="VAR" id="v(LWm2nYy_Tb2EG4/?oj">bee</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="6,~-ASW3$,JTY#a$|zN/"><value name="img"><shadow type="screen_image_picker" id="|8Df$__($*JGpAs~FQ%~"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"|8Df$__($*JGpAs~FQ%~"}}</data></shadow></value><value name="vx"><shadow type="spriteSpeedPicker" id="A~CZ1T!FkpjbHB(vUlfV"><field name="speed">50</field></shadow><block type="device_random" id="0:]W8N(Wj-UXUK[Pig.:"><value name="min"><shadow type="math_number" id="U]YL-IvhbqX6%v-({y.7"><field name="NUM">-50</field></shadow></value><value name="limit"><shadow type="math_number" id="(~f1A_!QD9iv(9X@6HC6"><field name="NUM">50</field></shadow></value></block></value><value name="vy"><shadow type="spriteSpeedPicker" id="T)$TcnN$@5k8q+%J)K#1"><field name="speed">50</field></shadow></value></block></value></block></next></block></statement></block></xml>
