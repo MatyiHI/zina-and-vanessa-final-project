@@ -1,6 +1,12 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
     sprites.destroy(otherSprite, effects.spray, 100)
     music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.UntilDone)
+    info.changeScoreBy(1)
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+    sprites.destroy(otherSprite, effects.confetti, 100)
+    music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.UntilDone)
+    info.changeLifeBy(-1)
 })
 let bee: Sprite = null
 let clover: Sprite = null
