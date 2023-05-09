@@ -1,3 +1,4 @@
+let clover: Sprite = null
 scene.setBackgroundImage(assets.image`Background`)
 let bunny = sprites.create(img`
     . . . . . . . . . . . . . . . . 
@@ -19,3 +20,23 @@ let bunny = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(bunny)
 bunny.setStayInScreen(true)
+game.onUpdateInterval(5000, function () {
+    clover = sprites.createProjectileFromSide(img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        `, randint(-50, 50), 50)
+})
