@@ -58,4 +58,5 @@ game.onUpdateInterval(5000, function () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `, randint(-50, 50), 50)
+    bee.setKind(SpriteKind.Enemy)
 })
