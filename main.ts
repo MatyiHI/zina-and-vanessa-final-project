@@ -1,7 +1,3 @@
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
-    sprites.destroy(otherSprite, effects.confetti, 100)
-    music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.UntilDone)
-})
 let bee: Sprite = null
 let clover: Sprite = null
 scene.setBackgroundImage(assets.image`Background`)
