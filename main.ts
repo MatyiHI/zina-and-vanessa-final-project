@@ -1,11 +1,11 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
-    sprites.destroy(otherSprite, effects.spray, 100)
+    sprites.destroy(otherSprite, effects.confetti, 100)
     music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.UntilDone)
     info.changeScoreBy(1)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
-    sprites.destroy(otherSprite, effects.confetti, 100)
-    music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.UntilDone)
+    sprites.destroy(otherSprite, effects.fire, 100)
+    music.play(music.melodyPlayable(music.magicWand), music.PlaybackMode.UntilDone)
     info.changeLifeBy(-1)
 })
 let bee: Sprite = null
